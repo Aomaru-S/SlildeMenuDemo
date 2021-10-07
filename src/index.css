@@ -1,0 +1,56 @@
+.body {
+    /*overflow: hidden;*/
+    width: 100vw;
+}
+
+.body-inner {
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.content-container {
+    background-color:  gray;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.content {
+    padding: 20px;
+}
+
+.header {
+    background-color: antiquewhite;
+    margin-bottom: 15px;
+}
+
+.main {
+    background-color: burlywood;
+}
+
+.footer {
+    margin-top: 15px;
+    background-color: coral;
+}
+
+.nav {
+    min-height: 100vh;
+    width: 300px;
+    background-color: crimson;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.nav-sliding-ready {
+    right: -300px;
+}
+
+.nav-sliding {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    z-index: 3;
+    right: 0;
+}
